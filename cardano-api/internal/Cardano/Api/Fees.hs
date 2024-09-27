@@ -20,6 +20,8 @@ module Cardano.Api.Fees
 
     -- * Script execution units
   , evaluateTransactionExecutionUnits
+  , evaluateTransactionExecutionUnitsShelley
+  , substituteExecutionUnits
   , ScriptExecutionError (..)
   , TransactionValidityError (..)
 
